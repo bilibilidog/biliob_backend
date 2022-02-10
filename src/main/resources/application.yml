@@ -13,10 +13,10 @@ spring:
     mongodb:
       uri: ${BILIOB_MONGO_URL}
   mail:
-    host: smtp.biliob.com
+    host: smtp.gmail.com
     password: ${BILIOB_MAIL_PASSWORD}
-    username: jannchie@admin.biliob.com
-    port: 465
+    username: noreply@bilibili.dog
+    port: 587
     default-encoding: UTF-8
     properties:
       mail:
